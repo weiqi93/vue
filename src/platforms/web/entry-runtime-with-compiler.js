@@ -1,5 +1,6 @@
 /* @flow */
-
+// Vue的入口
+// 当我们代码执行 import vue from ‘vue’的时候，就是从这个入口执行代码初始化vue。
 import config from 'core/config'
 import { warn, cached } from 'core/util/index'
 import { mark, measure } from 'core/util/perf'
